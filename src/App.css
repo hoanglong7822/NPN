@@ -1,3 +1,8 @@
 .container {
-  background-color: bisque;
+  background-color: #f8c7da; /* Màu nền */
+  width: 100vw; /* Chiều rộng toàn màn hình */
+  height: 100vh; /* Chiều cao toàn màn hình */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

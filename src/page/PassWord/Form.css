@@ -1,0 +1,80 @@
+.password-container {
+  width: 100%;
+  max-width: 500px;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.password-wrapper {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.password-wrapper:focus-within {
+  border-color: #007bff;
+}
+
+.password-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.password-strength {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.weak {
+  color: red;
+}
+
+.strong {
+  color: green;
+}
+
+.submit-btn {
+  background-color: #ac5865;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
